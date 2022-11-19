@@ -1,0 +1,8 @@
+prefix=/home/amap/race_catkin_ws/install
+
+Name: m_race_car_base_control
+Description: Description of m_race_car_base_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lm_car_new
+Requires: roscpp rospy std_msg geometry_msgs

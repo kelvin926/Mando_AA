@@ -1,0 +1,8 @@
+prefix=/home/amap/race_catkin_ws/install
+
+Name: sc_mini
+Description: Description of sc_mini
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

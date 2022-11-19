@@ -1,0 +1,15 @@
+1) sc_mini laser 실행  : roslaunch sc_mini start.launch
+
+2) hector slam실행  : roslaunch hector_slam_launch tutorial_test.launch
+
+3) waypoints move실행 !!  : rosrun race_waypoints_move race_waypoints_move_node 
+
+4) waypoint car control : rosrun waypoint_race_car_control waypoint_race_car_control_node
+
+5) vision 실행 ?? : rosrun m_race_vision race_opencv_vision_node
+
+6) car control 실행 !! :  rosrun m_race_car_base_control  m_race_car_control_node
+
+7) 키보드 제어 : rosrun m_race_car_base_control teleop.py
+
+모두 bar 할 것.
