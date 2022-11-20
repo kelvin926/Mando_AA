@@ -6,15 +6,15 @@
 #include "geometry_msgs/Pose2D.h" 
 #include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 
-#define MAX_L_STEER -30
-#define MAX_R_STEER 30
+#define MAX_L_STEER -50
+#define MAX_R_STEER 50
 #define STEER_NEUTRAL_ANGLE 50
 
 #define RAD2DEG(x) ((x)*180./M_PI)
 #define DEG2RAD(x) ((x)/180.*M_PI)
 
-#define WayPoint_X_Tor 0.1
-#define WayPoint_Y_Tor 0.3
+#define WayPoint_X_Tor 0.25
+#define WayPoint_Y_Tor 0.25
 
 double pos_x = 0.0;
 double pos_y = 0.0;

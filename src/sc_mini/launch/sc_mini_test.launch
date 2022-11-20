@@ -1,6 +1,6 @@
 <launch>
 
- <node pkg="tf" type="static_transform_publisher" name="laser_link_broadcaster" args="0.13 0 0.02 3.141592 3.141592 0 base_link laser_link 10" />
+ <node pkg="tf" type="static_transform_publisher" name="laser_link_broadcaster" args="0.13 0 0.02 3.141592 0 0 base_link laser_link 10" />
 
   <node pkg="sc_mini" type="sc_mini" name="sc_mini" output="screen">
     <param name="frame_id" type="string" value="laser_link"/>

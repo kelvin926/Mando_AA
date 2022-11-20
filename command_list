@@ -13,3 +13,8 @@
 7) 키보드 제어 : rosrun m_race_car_base_control teleop.py
 
 모두 bar 할 것.
+
+echo "xrandr --fb 1920x1080" >> ~/.xsessionrc
+
+source ~/.xsessionrc
+

@@ -30,8 +30,8 @@
 //I2C bus  
 static const char *deviceName = "/dev/i2c-0";
 
-#define MAX_L_STEER -30
-#define MAX_R_STEER 30
+#define MAX_L_STEER -50
+#define MAX_R_STEER 50
 #define STEER_NEUTRAL_ANGLE 50
 
 #define RAD2DEG(x) ((x)*180./M_PI)
